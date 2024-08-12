@@ -9,10 +9,10 @@ editor: visual
 # What do you learn when it fails?
 
 ```{r}
-f <-- function() g()
-g <-- function() h()
-h <-- function() i()
-i <-- function() stop("Error")
+f <- function() {1}
+g <- function() h()
+h <- function() i()
+i <- function() stop("Error")
 ```
 ```{r}
 f()
